@@ -73,6 +73,7 @@ Launch Jupyter and work through the modules in order:
 ```bash
 jupyter notebook module_1/
 jupyter notebook module_2/
+jupyter notebook module_3/
 ```
 
 ## Module 1: LangChain Foundations
