@@ -72,7 +72,7 @@ jupyter notebook module_2/
 
 | # | Notebook | What it covers |
 |---|----------|-----------------|
-| 2.1 | [2_1_mcp.ipynb](module_2/2_1_mcp.ipynb) | Connecting an agent to the Model Context Protocol (MCP) via `MultiServerMCPClient`: launching a **local** stdio MCP server and pulling its tools/resources/prompts, then connecting to an **online** MCP server (a time server run with `uv`) |
+| 2.1 | [2_1_mcp.ipynb](notebooks/module-2/2.1_mcp.ipynb) | Connecting an agent to the Model Context Protocol (MCP) via `MultiServerMCPClient`: launching a **local** stdio MCP server and pulling its tools/resources/prompts, then connecting to an **online** MCP server (a time server run with `uv`) |
 | 2.1 | [2_1_travel_agent.ipynb](module_2/2_1_travel_agent.ipynb) | Building a travel agent by connecting to a remote MCP server over `streamable_http` (Kiwi's flight-search MCP), combined with a `system_prompt` and `InMemorySaver` memory |
 | 2.2 | [2_2_runtime_context.ipynb](module_2/2_2_runtime_context.ipynb) | Passing static runtime context into an agent via a `context_schema` dataclass, and reading that context from inside a tool using `ToolRuntime` |
 | 2.2 | [2_2_state.ipynb](module_2/2_2_state.ipynb) | Defining a `CustomState` (extending `AgentState`) so tools can **write to** state via `Command` updates and **read from** state via `ToolRuntime.state`, persisted per `thread_id` |
