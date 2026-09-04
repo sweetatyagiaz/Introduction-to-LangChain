@@ -28,7 +28,7 @@ Introduction-to-LangChain/
 │   ├── bonus_rag.ipynb
 │   └── bonus_sql.ipynb
 └── module_3/
-    ├── 3_2_managing_messages.ipynb
+    ├── Lession 1: What is Middleware?
     ├── 3_3_hitl.ipynb
     ├── 3_4_dynamic_models.ipynb
     ├── 3_4_dynamic_prompts.ipynb
