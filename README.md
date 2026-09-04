@@ -11,14 +11,16 @@ Introduction-to-LangChain/
 ├── .env.example
 ├── module_1/
 │   ├── Lesson 1: Foundation Models
-│   │    ├── 1_1_foundational_models.ipynb
-│   │    ├── 1_1_prompting.ipynb
-│   ├── 1_2_tools.ipynb
-│   ├── 1_2_web_search.ipynb
-│   ├── 1_3_memory.ipynb
-│   ├── 1_4_multimodal_messages.ipynb
-│   ├── 1_5_personal_chef.ipynb
-│   └── 1_5_personal_chef.py
+│       ├── 1_1_foundational_models.ipynb
+│       ├── 1_1_prompting.ipynb
+│   ├── Lesson 2: Tools
+│       ├── 1_2_tools.ipynb
+│       ├── 1_2_web_search.ipynb
+│   ├── Lesson 3: Short-Term Memory     (1_3_memory.ipynb)
+│   ├── Lesson 4: MultiModal Messages   (1_4_multimodal_messages.ipynb)
+│   ├── Lesson 5: Personal Chef
+│       ├── 1_5_personal_chef.ipynb
+│       └── 1_5_personal_chef.py
 ├── module_2/
 │   ├── 2_1_mcp.ipynb
 │   ├── 2_1_travel_agent.ipynb
@@ -38,7 +40,7 @@ Introduction-to-LangChain/
     ├── Lesson 5: Email Assistant
         ├── 3_5_email_agent.ipynb
         ├── 3_5_email_agent.py
-        ├── Front End App Reference: agent-chat-ui
+        └── Front End App Reference: agent-chat-ui
 ```
 
 ## Prerequisites
