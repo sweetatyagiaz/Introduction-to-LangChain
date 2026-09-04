@@ -10,8 +10,9 @@ Introduction-to-LangChain/
 ├── requirements.txt
 ├── .env.example
 ├── module_1/
-│   ├── 1_1_foundational_models.ipynb
-│   ├── 1_1_prompting.ipynb
+│   ├── Lesson 1: Foundation Models
+│   │    ├── 1_1_foundational_models.ipynb
+│   │    ├── 1_1_prompting.ipynb
 │   ├── 1_2_tools.ipynb
 │   ├── 1_2_web_search.ipynb
 │   ├── 1_3_memory.ipynb
@@ -31,13 +32,13 @@ Introduction-to-LangChain/
     ├── Lession 1: What is Middleware? (3.2_managing_messages.ipynb)
     ├── Lesson 3: Human In The Loop (3.3_hitl.ipynb)
     ├── Lesson 4: Dynamic Agents
-    │    ├── 3_4_dynamic_models.ipynb
-    │    ├── 3_4_dynamic_prompts.ipynb
-    │    ├── 3_4_dynamic_tools.ipynb
+        ├── 3_4_dynamic_models.ipynb
+        ├── 3_4_dynamic_prompts.ipynb
+        ├── 3_4_dynamic_tools.ipynb
     ├── Lesson 5: Email Assistant
-    │    ├── 3_5_email_agent.ipynb
-    │    └── 3_5_email_agent.py
-    │    └── Front End App Reference: agent-chat-ui
+        ├── 3_5_email_agent.ipynb
+        ├── 3_5_email_agent.py
+        ├── Front End App Reference: agent-chat-ui
 ```
 
 ## Prerequisites
