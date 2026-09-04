@@ -1,6 +1,12 @@
 # Introduction to LangChain
 
-A hands-on course of Jupyter notebooks for learning [LangChain](https://www.langchain.com/) — a framework for building applications powered by large language models (LLMs). Module 1 covers the foundations (models, prompting, tools, memory, multimodal input). Module 2 builds on that with MCP, runtime context, custom state, multi-agent systems, and bonus RAG/SQL agents.
+A hands-on course of Jupyter notebooks for learning [LangChain](https://www.langchain.com/) — a framework for building applications powered by large language models (LLMs). The course progresses from single-model basics to production-grade, controllable agents, across three modules:
+
+- **Module 1 — Foundations:** initialising and invoking models and agents, prompting techniques, structured output, tools, web search, conversation memory, and multimodal (text/image/audio) input.
+- **Module 2 — Agentic Systems:** connecting agents to external capabilities via MCP (local, online, and remote HTTP servers), passing runtime context, reading/writing custom agent state, composing multi-agent systems (subagents-as-tools), and bonus RAG and SQL agents.
+- **Module 3 — Middleware & Agent Control:** managing long conversations (summarization/trimming), human-in-the-loop approval for sensitive tool calls, and dynamically switching models, prompts, and available tools at runtime — culminating in an authenticated email agent that ties all of it together.
+
+By the end, you'll have built agents that can call tools, browse the web, remember conversations, coordinate with other agents, connect to external services, and pause for human approval before taking sensitive actions.
 
 ## Repository Structure
 
