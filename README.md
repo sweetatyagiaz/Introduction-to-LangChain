@@ -102,7 +102,7 @@ jupyter notebook module_2/
 
 | # | Notebook | What it covers |
 |---|----------|-----------------|
-| 3.2 | [3_2_managing_messages.ipynb](module_3/3_2_managing_messages.ipynb) | Managing long conversation histories: auto-summarizing older messages with `SummarizationMiddleware` (token-based trigger, keeping the most recent message), and a custom `@before_agent` middleware that trims/deletes messages (e.g. removing `ToolMessage`s) from state via `RemoveMessage` |
+| 3.2 | [3_2_managing_messages.ipynb](notebooks/module-3/3.2_managing_messages.ipynb) | Managing long conversation histories: auto-summarizing older messages with `SummarizationMiddleware` (token-based trigger, keeping the most recent message), and a custom `@before_agent` middleware that trims/deletes messages (e.g. removing `ToolMessage`s) from state via `RemoveMessage` |
 | 3.3 | [3_3_hitl.ipynb](module_3/3_3_hitl.ipynb) | Human-in-the-loop (HITL) tool approval with `HumanInTheLoopMiddleware`: marking some tools as auto-run and others as requiring approval, inspecting the resulting `__interrupt__`, and resuming the paused run by **approving**, **rejecting** (with a message), or **editing** the tool call before it executes |
 | 3.4 | [3_4_dynamic_models.ipynb](module_3/3_4_dynamic_models.ipynb) | Dynamically swapping which model handles a request with `@wrap_model_call`: picking a larger model for long conversations and a smaller/cheaper one for short ones, based on message count in state |
 | 3.4 | [3_4_dynamic_prompts.ipynb](module_3/3_4_dynamic_prompts.ipynb) | Generating the system prompt dynamically per-request with `@dynamic_prompt`, driven by runtime context (e.g. responding only in the user's requested language) |
