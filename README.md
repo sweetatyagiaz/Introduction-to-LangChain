@@ -22,14 +22,15 @@ Introduction-to-LangChain/
 │       ├── 1_5_personal_chef.ipynb
 │       └── 1_5_personal_chef.py
 ├── module_2/
-│   ├── 2_1_mcp.ipynb
-│   ├── 2_1_travel_agent.ipynb
-│   ├── 2_2_runtime_context.ipynb
-│   ├── 2_2_state.ipynb
-│   ├── 2_3_multi_agent.ipynb
-│   ├── 2_4_wedding_planners.ipynb
-│   ├── bonus_rag.ipynb
-│   └── bonus_sql.ipynb
+│   ├── Lesson 1: MCP
+│       ├── 2_1_mcp.ipynb
+│       ├── 2_1_travel_agent.ipynb
+│   ├── Lesson 2: Context and State
+│       ├── 2_2_runtime_context.ipynb
+│       ├── 2_2_state.ipynb
+│   ├── Lesson 3: Multi-Agent Systems (2_3_multi_agent.ipynb)
+│   ├── Lesson 4: Wedding Planner (2_4_wedding_planners.ipynb)
+│   ├── Bonus: RAG & SQL Query (bonus_rag.ipynb, bonus_sql.ipynb)
 └── module_3/
     ├── Lession 1: What is Middleware? (3.2_managing_messages.ipynb)
     ├── Lesson 3: Human In The Loop (3.3_hitl.ipynb)
